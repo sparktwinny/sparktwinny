@@ -19,7 +19,7 @@ handle(Req,State)->
 
   {ok,Req4}=cowboy_req:reply(200,[
     {<<"content-type">>,<<"text/plain">>}
-  ],<<"{\"result\":\"hello world!@@@12131231211@\"}">>,Req3),
+  ],<<"{\"result\":\"hello world!@11ss@\"}">>,Req3),
   {ok,Req4,State}.
 
 
